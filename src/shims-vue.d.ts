@@ -1,0 +1,17 @@
+/* eslint-disable */
+declare module '*.vue' {
+  import type { DefineComponent } from 'vue'
+  const component: DefineComponent<{}, {}, any>
+  export default component
+}
+
+// declare module 'vue/types/vue' {
+//   interface Vue {
+//     $Notice: Notice
+//     $Message: Message
+//     $Modal: ModalInstance
+//     $Loading: LoadingBarClass
+//     $Spin: Spin
+//     [key: string]: any
+//   }
+// }
